@@ -99,7 +99,6 @@ input {
 
 @media screen and (max-width: 480px) {
   .navbar {
-    flex-direction: column;
     align-items: flex-start;
   }
 
@@ -112,7 +111,10 @@ input {
     font-size: 13px;
   }
 
-  .section1,
+  .section1 {
+    margin-top: 150px;
+  }
+
   .section2,
   .section3 {
     margin: 10px;
